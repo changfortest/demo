@@ -19,11 +19,7 @@ import java.util.HashMap;
 @RequestMapping(path = "/user")
 public class Login {
 
-    //dev_A 做的改动
 
-    //dev_yanghua 做的改动
-
-    //dev_A 再次做改动
 
     @Autowired
     private RedisTemplate redisTemplate;
