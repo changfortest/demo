@@ -18,9 +18,7 @@ import java.util.HashMap;
 @RestController
 @RequestMapping(path = "/user")
 public class Login {
-
     //dev_yanghua做的改动
-    //A做的改动
 
     @Autowired
     private RedisTemplate redisTemplate;
