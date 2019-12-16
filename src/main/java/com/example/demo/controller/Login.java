@@ -19,7 +19,6 @@ import java.util.HashMap;
 @RequestMapping(path = "/user")
 public class Login {
 
-    //dev_yanghua做的改动
     //A做的改动
 
     @Autowired
