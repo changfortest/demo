@@ -19,8 +19,7 @@ import java.util.HashMap;
 @RequestMapping(path = "/user")
 public class Login {
 
-    //A做的改动
-    //dev_yanghua做的改动
+    //dev_A 做的改动
 
     @Autowired
     private RedisTemplate redisTemplate;
@@ -42,8 +41,6 @@ public class Login {
         cleanFailNum(session, username);
         return new ResultContent(0, "登陆成功", " ");
     }
-
-    //dev_yanghau做的改动咯
 
     /**
      * 校验用户登录失败次数
